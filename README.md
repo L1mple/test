@@ -16,8 +16,8 @@ manager = VehicleManger(url="https://test.tspb.su/test-task")
 ```python
 manager.get_vehicles()
 manager.get_vehicle(id={id})
-manager.add_vehicle(vehicle=Vehicle(...)
-manager.update_vehicle(vehicle=Vehicle(id={id}, ...)
+manager.add_vehicle(vehicle=Vehicle(...))
+manager.update_vehicle(vehicle=Vehicle(id={id}, ...))
 manager.delete_vehicle(id={id})
 manager.get_distance(id1={id_of_first_vehicle}, id2={id_of_second_vehicle})
 manager.get_nearest_vehicle(id={id}) # vehicle nearest to vehicle with id={id}
